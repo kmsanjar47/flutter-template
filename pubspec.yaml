@@ -1,0 +1,41 @@
+name: m_expense
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  simple_animations: ^5.0.2
+  flutter_svg_provider: ^1.0.7
+  intl: ^0.19.0
+  image_picker: ^1.0.7
+  photo_view: ^0.14.0
+  sms_autofill: ^2.2.0
+  get_storage: ^2.1.1
+  otp_pin_field: ^1.2.2
+  dots_indicator: ^2.1.1
+  dio: ^5.4.1
+  path: ^1.8.3
+  jwt_decoder: ^2.0.1
+  awesome_dialog: ^3.2.0
+  keyboard_dismisser: ^3.0.0
+  simple_fontellico_progress_dialog: ^0.3.0
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+
